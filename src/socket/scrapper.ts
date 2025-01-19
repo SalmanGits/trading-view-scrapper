@@ -18,7 +18,7 @@ class StockScraper {
 
     async scrapeStocks(): Promise<any[]> {
         try {
-            const response = await this.client.get('https://in.tradingview.com/markets/stocks-india/market-movers-large-cap/');
+            const response = await this.client.get(process.env.URL);
             const $ = cheerio.load(response.data);
 
             const stocks: any[] = [];

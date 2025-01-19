@@ -1,6 +1,4 @@
-Here's a simple README for your project:
 
----
 
 # Live Market Feed Scraper for Large Cap NSE Stocks
 
